@@ -127,7 +127,6 @@ def assign_colors(df, columns):
 
     color = ('','') # assign color values depending on strain direction
     if strain_direction.__contains__('width'):
-        print("*****ASSDTFHSDGHB")
         # lighter and darker colors for raw and zoomed data
         color = ('#6495ED','#4169E1') # oranges
     elif strain_direction.__contains__('length'):
